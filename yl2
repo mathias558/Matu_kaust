@@ -1,0 +1,13 @@
+import math  
+  
+def area_of_the_circle (radius):   
+    area = radius** 2 * math.pi  
+    return area
+  
+def circumference_of_circle (radius):
+    circumference = radius* 2 * math.pi
+    return circumference
+
+radius = float (input ("Palun sisesta raadius: "))  
+print ("Ringi ümbermõõt on: ", circumference_of_circle (radius))
+print ("Ringi pindala on: ", area_of_the_circle (radius)) 
